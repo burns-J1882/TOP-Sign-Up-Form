@@ -29,12 +29,12 @@
             </fieldset>
             <fieldset class="user-contact-info">
                 <label for="email">Email <input type="email" name="email" id="email" required></label>
-                <label for="phone-number">Phone Number<input type="number" name="phone-number"
+                <label for="phone-number">Phone Number<input type="tel" name="phone-number"
                         id="phone-number"></label>
             </fieldset>
             <fieldset class="user-password">
                 <label for="password">Password<input type="password" name="password" id="password" minlength="8"
-                        pattern="[0-9a-fA-F]" required></label>
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required></label>
                 <label for="pass-confirm">Confirm Password<input type="password" name="pass-confirm" id="pass-confirm"
                         required></label>
             </fieldset>
