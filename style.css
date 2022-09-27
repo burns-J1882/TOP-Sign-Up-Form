@@ -98,8 +98,15 @@ button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  border-radius: .25rem;
 }
 
+button:hover{
+    background-color: #37ff24;
+    color: black;
+    border: 1px solid #37ff24;
+}
+/*
 button:after {
   content: "";
   background-color: #37ff24;
@@ -122,7 +129,7 @@ button:hover:after {
     padding: 13px 50px 13px;
   }
 }
-
+*/
 a {
     color:#37ff24;
     text-shadow: rgba(0, 0, 0, .1);
